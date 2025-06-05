@@ -1,3 +1,6 @@
+# Note: The firmware here is divided into different versions, choose the corresponding firmware according to the version of your product.
+
+
 # How to install the factory demo firmware with flash download tool?
 
 #### 1.Preparation:
