@@ -27,7 +27,6 @@ The values are 0x0, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x10, 
 ② Version 1.2 has a new option for function switching, see above for details.
 When using the case, please select the corresponding program to test or modify according to the version number of your motherboard.
 
-Translated with DeepL.com (free version)
 
 ### 3, product information
 
