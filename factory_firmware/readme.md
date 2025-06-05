@@ -58,4 +58,8 @@ xxxx.ino.partitions.bin-------0x8000
 
 ##### Step5 Press the reset button to show the demo.
 
-![flash8](./flash8.jpg)
+![advance7-firmware-2](https://github.com/user-attachments/assets/fd0cf741-07cb-4f1a-87ee-d23ef0bcd093)
+
+
+
+
