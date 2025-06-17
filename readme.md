@@ -22,7 +22,7 @@
 
 ### Version update points:
 ① Version 1.2 updated the control of backlight on the basis of the original, the backlight of version 1.2 is controlled by STC8H1K28 microcontroller, and the backlight is lit in the program by sending the value to this microcontroller address (0x30).
-The values are 0x0, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x10, where 0x10 is the maximum brightness.
+The values are 0x05, 0x06, 0x07, 0x08, 0x09 and 0x10, where 0x05 switches off the backlight and 0x10 is the maximum brightness.
 
 ② Version 1.2 has a new option for function switching, see above for details.
 When using the case, please select the corresponding program to test or modify according to the version number of your motherboard.
