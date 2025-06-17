@@ -133,19 +133,27 @@ C:\Users\Documents\Arduino\libraries\
 ### 7,Pin definition
 
 #define HSPI_MISO  4
+
 #define HSPI_MOSI  6
+
 #define HSPI_SCLK  5
+
 #define HSPI_SS    19
 
 
 
 #define SD_MOSI 6
+
 #define SD_MISO 4
+
 #define SD_SCK  5
+
 #define SD_CS   7 //The chip selector pin is not connected to IO
 
 #define I2S_DOUT 12
+
 #define I2S_BCLK 13
+
 #define I2S_LRC 11
 
 cfg.pin_sclk = 42;  // SPI、SCLK
@@ -157,6 +165,7 @@ cfg.pin_miso = -1;  // SPI、MISO
 cfg.pin_dc = 41; 
 
 #define TOUCH_GT911_SCL 16
+
 #define TOUCH_GT911_SDA 15
 
 ### 8,Guidelines for downloading some of the files from the github repository
