@@ -1,3 +1,6 @@
+
+# Note: The programs in the example_code_7.0 folder on this page are version 1.0 arduino programs.
+
 # The program here is divided into different versions, according to the version of your product to choose the corresponding program
 
 ## **The basic tutorial case is divided into 1-11 lessons:**
