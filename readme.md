@@ -18,15 +18,29 @@
 |      | Hardware | Software | Remark |
 | ---- | -------- | -------- | ------ |
 | 1    | V1.0     | V1.0     | old    |
-| 2    | V1.2     | V1.2     | latest |
+| 2    | V1.2     | V1.2     | old |
+| 2    | V1.3     | V1.3     | latest |
 
 ### Version update points:
+
+**Version 1.2**
+
 ① Version 1.2 updated the control of backlight on the basis of the original, the backlight of version 1.2 is controlled by STC8H1K28 microcontroller, and the backlight is lit in the program by sending the value to this microcontroller address (0x30).
 The values are 0x05, 0x06, 0x07, 0x08, 0x09 and 0x10, where 0x05 switches off the backlight and 0x10 is the maximum brightness.
+
 The control of the buzzer is similar to that of the backlight: sending 0x15 activates the buzzer, while sending 0x16 deactivates it.
+
 The speaker is controlled in the same manner: sending 0x17 activates the speaker, while sending 0x18 deactivates it.
+
 ② Version 1.2 has a new option for function switching, see above for details.
 When using the case, please select the corresponding program to test or modify according to the version number of your motherboard.
+
+**Version 1.3**
+① Version 1.3 introduces an updated backlight control function. In this iteration, the backlight is managed by the STC8H1K28 microcontroller. The programme illuminates the backlight by transmitting numerical values to the microcontroller's address (0x30).
+Brightness adjustment spans 0-245 levels, where 0 denotes maximum brightness, 244 represents minimum brightness, and 245 disables the backlight.
+
+The buzzer control principle mirrors that of the backlight: sending 246 activates the buzzer, while sending 247 deactivates it.
+
 
 
 ### 3, product information
