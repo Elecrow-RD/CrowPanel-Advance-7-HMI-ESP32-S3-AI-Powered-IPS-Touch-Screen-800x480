@@ -36,6 +36,7 @@ The speaker is controlled in the same manner: sending 0x17 activates the speaker
 When using the case, please select the corresponding program to test or modify according to the version number of your motherboard.
 
 **Version 1.3**
+
 ① Version 1.3 introduces an updated backlight control function. In this iteration, the backlight is managed by the STC8H1K28 microcontroller. The programme illuminates the backlight by transmitting numerical values to the microcontroller's address (0x30).
 Brightness adjustment spans 0-245 levels, where 0 denotes maximum brightness, 244 represents minimum brightness, and 245 disables the backlight.
 
