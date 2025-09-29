@@ -1,4 +1,4 @@
-## Requirements for the relevant version of the routine
+## Arduino platform requirements for ESP32 version and library version
 Board Version
 esp32 by Espressif System 3.0.2
 After completing the Esp32 download, replace the files in that directory；
