@@ -1,4 +1,4 @@
-# **The nRF2401 wireless module is used to receive and transmit signals** **example**
+# **The lora wireless module is used to receive and transmit signals** **example**
 
 To complete this case, you need to refer to the detailed documentation tutorial, learn to connect to the gateway, and then burn code to send AT instructions. Detailed documentation tutorials can be found at the bottom of the page.
 
@@ -40,3 +40,4 @@ https://www.elecrow.com/pub/wiki/7.Advance_wirelessmodule_lorawan.html
 
 ## **Video** **tutorial link**：
 https://youtu.be/7SWwTssfDV8
+
