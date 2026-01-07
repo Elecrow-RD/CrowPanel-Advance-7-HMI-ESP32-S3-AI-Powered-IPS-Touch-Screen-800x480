@@ -16,7 +16,6 @@ The libs are provided directly by our wiki, just use the libs provided by the wi
 
 
 
-# Note: The programs in the example_code_7.0 folder on this page are version 1.0 arduino programs.
 
 # The program here is divided into different versions, according to the version of your product to choose the corresponding program
 
