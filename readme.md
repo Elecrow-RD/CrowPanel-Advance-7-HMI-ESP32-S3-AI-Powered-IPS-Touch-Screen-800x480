@@ -19,8 +19,8 @@
 | ---- | -------- | -------- | ------ |
 | 1    | V1.0     | V1.0     | old    |
 | 2    | V1.2     | V1.2     | old |
-| 2    | V1.3     | V1.3     | latest |
-
+| 3    | V1.3     | V1.3     | old |
+| 4    | V1.4     | V1.4     | latest |
 ### Version update points:
 
 **Version 1.2**
@@ -42,7 +42,9 @@ Brightness adjustment spans 0-245 levels, where 0 denotes maximum brightness, 24
 
 The buzzer control principle mirrors that of the backlight: sending 246 activates the buzzer, while sending 247 deactivates it.
 
+**Version 1.4**
 
+Updated the button components.
 
 ### 3, product information
 
