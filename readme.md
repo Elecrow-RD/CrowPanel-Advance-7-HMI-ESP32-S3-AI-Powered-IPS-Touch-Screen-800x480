@@ -44,7 +44,7 @@ The buzzer control principle mirrors that of the backlight: sending 246 activate
 
 **Version 1.4**
 
-Updated the button components.
+Only the button component has been updated. All other hardware and I/O pins remain the same as in the previous version.
 
 ### 3, product information
 
@@ -54,7 +54,7 @@ Updated the button components.
 | System Memory                                | 512KB SRAM、8M PSRAM                                         |
 | Memory                                       | 16M Flash，384KB ROM                                         |
 | Development Language                         | MicroPython、C/C++                                           |
-| Development Environment                      | ESP-IDF、Arduino IDE、PlatformIO、Micro Python         |
+| Development Environment                      | ESP-IDF、Arduino IDE、PlatformIO、MicroPython         |
 | **Screen**                                   |                                                              |
 | Size                                         | 7.0 inch                                                     |
 | Diver IC                                     | SC7277                                                       |
