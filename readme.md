@@ -82,7 +82,7 @@ Updated the button components.
 | Storage temperature                          | -30~80 °C                                                    |
 | Power Input                                  | 5V/2A, USB or UART terminal                                  |
 | Active Area                                  | 156mm*87mm                                                   |
-| Dimensions                                   | 181.26*108.36*16mm                                           |
+| Dimensions                                   | 181.26\*108.36*16mm                                           |
 
 ### 4, Use the driver module
 
