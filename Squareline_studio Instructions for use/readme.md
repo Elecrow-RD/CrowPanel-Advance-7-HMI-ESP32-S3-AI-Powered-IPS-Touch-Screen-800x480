@@ -6,7 +6,7 @@
 
 LVGL (LittlevGL) is an open-source, lightweight, high-performance embedded graphics library designed specifically for devices with limited resources. It supports multi platform porting, provides rich controls, animations, touch support, and highly customizable styles, suitable for fields such as smart homes, industrial equipment, medical instruments, etc. LVGL is centered around modular design and can run on bare metal or operating systems, accelerating GUI development through powerful community support and tools such as SquareLine Studio.
 
-![1](https://www.elecrow.com/pub/wiki/assets/images/3.5_3_Use_LVGL_library_to_create_UI_interface_and_light_up_lights/1.png)
+![1](https://www.elecrow.com/wiki/assets/images/3.5_3_Use_LVGL_library_to_create_UI_interface_and_light_up_lights/1.png)
 
 SquareLine Studio is a next-generation user interface (UI) solution for individuals and professionals, allowing users to quickly and easily design and develop aesthetically pleasing UI for embedded devices. This software provides integrated design, prototyping, and development capabilities, supporting the export of platform independent C or MicroPython code for LVGL (Lightweight Graphics Library), which can be compiled and run on any vendor's device.
 
