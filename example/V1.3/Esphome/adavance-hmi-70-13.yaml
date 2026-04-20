@@ -9,7 +9,7 @@ esphome:
     priority: 600.0
     then:
       - lambda: |-
-          uint8_t cmd[1] = { 0x10 };
+          uint8_t cmd[1] = { 0 };
           id(bus_a).write(0x30, cmd, 1);  
 esp32:
   board: esp32-s3-devkitc-1
@@ -77,11 +77,11 @@ switch:
     id: backlight_switch
     turn_on_action:
       - lambda: |-
-          uint8_t cmd[1] = { 0x10 };
+          uint8_t cmd[1] = { 0 };
           id(bus_a).write(0x30, cmd, 1);
     turn_off_action:
       - lambda: |-
-          uint8_t cmd[1] = { 0x05 };
+          uint8_t cmd[1] = { 245 };
           id(bus_a).write(0x30, cmd, 1);
 
 image:
