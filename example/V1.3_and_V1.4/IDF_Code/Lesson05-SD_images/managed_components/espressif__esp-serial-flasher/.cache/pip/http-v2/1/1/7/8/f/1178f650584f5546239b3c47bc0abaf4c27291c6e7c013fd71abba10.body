@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="pypi:repository-version" content="1.0">
+        <title>Simple index</title>
+    </head>
+    <body>
+
+<a href="/pypi/pydantic-settings/pydantic_settings-2.4.0-py3-none-any.whl">pydantic_settings-2.4.0-py3-none-any.whl</a><br/>
+<a href="/pypi/pydantic-settings/pydantic_settings-2.5.0-py3-none-any.whl">pydantic_settings-2.5.0-py3-none-any.whl</a><br/>
+<a href="/pypi/pydantic-settings/pydantic_settings-2.5.2-py3-none-any.whl">pydantic_settings-2.5.2-py3-none-any.whl</a><br/>
+<a href="/pypi/pydantic-settings/pydantic_settings-2.6.0-py3-none-any.whl">pydantic_settings-2.6.0-py3-none-any.whl</a><br/>
+<a href="/pypi/pydantic-settings/pydantic_settings-2.6.1-py3-none-any.whl">pydantic_settings-2.6.1-py3-none-any.whl</a><br/>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="pypi:repository-version" content="1.0">
+        <title>Simple index</title>
+    </head>
+    <body>
+
+<a href="/pypi/colorama/colorama-0.4.4-py2.py3-none-any.whl">colorama-0.4.4-py2.py3-none-any.whl</a><br/>
+<a href="/pypi/colorama/colorama-0.4.5-py2.py3-none-any.whl">colorama-0.4.5-py2.py3-none-any.whl</a><br/>
+<a href="/pypi/colorama/colorama-0.4.6-py2.py3-none-any.whl">colorama-0.4.6-py2.py3-none-any.whl</a><br/>
+    </body>
+</html>
