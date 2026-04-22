@@ -97,6 +97,7 @@ image:
     id: small_logo
     resize: 200x100
     type: RGB565
+    transparency: chroma_key
   - file: "light.png"
     id: light_on
     resize: 200x200
