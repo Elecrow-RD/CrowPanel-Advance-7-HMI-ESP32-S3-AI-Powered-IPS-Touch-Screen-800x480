@@ -1,0 +1,6 @@
+source "D:/Application/ESP-IDF/esp-idf5.2.1/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader/Kconfig.projbuild"
+source "D:/Application/ESP-IDF/esp-idf5.2.1/Espressif/frameworks/esp-idf-v5.2.1/components/esp_app_format/Kconfig.projbuild"
+source "D:/Application/ESP-IDF/esp-idf5.2.1/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/Kconfig.projbuild"
+source "D:/Application/ESP-IDF/esp-idf5.2.1/Espressif/frameworks/esp-idf-v5.2.1/components/esptool_py/Kconfig.projbuild"
+source "D:/Application/ESP-IDF/esp-idf5.2.1/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table/Kconfig.projbuild"
+source "D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/main/Kconfig.projbuild"

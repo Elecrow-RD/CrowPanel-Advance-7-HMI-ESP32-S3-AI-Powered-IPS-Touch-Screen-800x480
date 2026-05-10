@@ -1,0 +1,31 @@
+dependencies:
+  espressif/esp_lcd_touch:
+    dependencies: []
+    source:
+      path: D:\Code\ESP32\ESP32_HMI_7inc\lesson3_4.3_7.0_lvgl\components\espressif__esp_lcd_touch
+      type: local
+    version: 1.1.2
+  espressif/esp_lcd_touch_gt911:
+    dependencies: []
+    source:
+      path: D:\Code\ESP32\ESP32_HMI_7inc\lesson3_4.3_7.0_lvgl\components\espressif__esp_lcd_touch_gt911
+      type: local
+    version: 1.1.3
+  idf:
+    source:
+      type: idf
+    version: 5.2.1
+  lvgl/lvgl:
+    dependencies: []
+    source:
+      path: D:\Code\ESP32\ESP32_HMI_7inc\lesson3_4.3_7.0_lvgl\components\lvgl__lvgl
+      type: local
+    version: 8.4.0
+direct_dependencies:
+- espressif/esp_lcd_touch
+- espressif/esp_lcd_touch_gt911
+- idf
+- lvgl/lvgl
+manifest_hash: 057a15272db301d022a0e1e84cdefbf5054e530c9026481208cd1048c716253a
+target: esp32s3
+version: 2.0.0

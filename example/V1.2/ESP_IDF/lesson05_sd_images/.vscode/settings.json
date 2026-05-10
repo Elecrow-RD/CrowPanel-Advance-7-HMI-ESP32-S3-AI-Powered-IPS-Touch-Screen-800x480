@@ -1,0 +1,13 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.portWin": "COM6",
+  "idf.espIdfPathWin": "e:\\espidf\\5.1.6\\esp\\v5.1.6\\esp-idf",
+  "idf.toolsPathWin": "E:\\espidf\\4.4.1\\tool\\Espressif",
+  "idf.pythonInstallPath": "e:\\espidf\\4.4.1\\tool\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.flashType": "UART",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  }
+}

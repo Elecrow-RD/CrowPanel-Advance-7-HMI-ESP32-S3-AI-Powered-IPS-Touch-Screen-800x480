@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/CMakeFiles/bootloader
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/CMakeFiles/bootloader.rule
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/CMakeFiles/bootloader-complete.rule
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Code/ESP32/ESP32_HMI_7inc/lesson3_4.3_7.0_lvgl/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

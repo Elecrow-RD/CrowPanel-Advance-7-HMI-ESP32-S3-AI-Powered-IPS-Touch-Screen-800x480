@@ -1,0 +1,12 @@
+{
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.espIdfPathWin": "C:\\Users\\12397\\esp\\v5.1.6\\esp-idf",
+    "idf.toolsPathWin": "c:\\Users\\12397\\esp\\v5.1.6_tools",
+    "idf.pythonInstallPath": "c:\\Users\\12397\\esp\\v5.1.6_tools\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.portWin": "COM4"
+}

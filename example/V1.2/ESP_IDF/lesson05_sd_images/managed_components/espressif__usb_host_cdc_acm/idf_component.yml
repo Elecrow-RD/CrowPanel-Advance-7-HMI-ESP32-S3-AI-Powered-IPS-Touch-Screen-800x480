@@ -1,0 +1,13 @@
+dependencies:
+  idf: '>=4.4'
+description: USB Host CDC-ACM driver
+repository: git://github.com/espressif/esp-usb.git
+repository_info:
+  commit_sha: b79a9c25ce77d89e934023205ef184e3be1bd59b
+  path: host/class/cdc/usb_host_cdc_acm
+tags:
+- usb
+- usb_host
+- cdc
+url: https://github.com/espressif/esp-usb/tree/master/host/class/cdc/usb_host_cdc_acm
+version: 2.1.0

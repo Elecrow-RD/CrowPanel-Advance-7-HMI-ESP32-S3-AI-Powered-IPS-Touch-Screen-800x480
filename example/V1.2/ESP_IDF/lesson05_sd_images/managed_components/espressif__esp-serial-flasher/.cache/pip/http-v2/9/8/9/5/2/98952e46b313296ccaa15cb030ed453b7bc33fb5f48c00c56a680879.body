@@ -1,0 +1,85 @@
+Metadata-Version: 2.3
+Name: esp-bool-parser
+Version: 0.1.2
+Summary: Tools for building ESP-IDF related apps.
+Author-email: Fu Hanxi <fuhanxi@espressif.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyparsing
+Requires-Dist: packaging
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinx-rtd-theme ; extra == "doc"
+Requires-Dist: sphinx_copybutton ; extra == "doc"
+Requires-Dist: myst-parser ; extra == "doc"
+Requires-Dist: sphinxcontrib-mermaid ; extra == "doc"
+Requires-Dist: sphinx-argparse ; extra == "doc"
+Requires-Dist: sphinx-tabs ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: changelog, https://github.com/espressif/esp-bool-parsers/blob/main/CHANGELOG.md
+Project-URL: documentation, https://docs.espressif.com/projects/esp-bool-parser
+Project-URL: homepage, https://github.com/espressif/esp-bool-parser
+Project-URL: repository, https://github.com/espressif/esp-bool-parser
+Provides-Extra: doc
+Provides-Extra: test
+
+# esp-bool-parser
+
+`esp-bool-parser` is a package that provides a way to process boolean statements based on `soc_caps` files in the ESP-IDF.
+
+It helps you locate `soc_headers` files in the ESP-IDF, parse them, and store the parsed values as constants, which are then used in `ChipAttr`.
+
+When you import `esp_bool_parser`, you will gain access to the following functions:
+
+### Key Functions
+
+#### `parse_bool_expr(stmt: str)`
+
+Parses a boolean expression.
+
+- **Parameters:**
+    - `stmt` (str): A string containing the boolean expression.
+
+- **Returns:**
+    - A parsed representation of the boolean expression.
+
+- **Usage Example:**
+
+  ```python
+  stmt_string = 'IDF_TARGET == "esp32"'
+  stmt = parse_bool_expr(stmt_string)
+  result = stmt.get_value("esp32", "config_name")
+  ```
+
+#### `register_addition_attribute(attr: str, action: t.Callable[..., t.Any]) -> None`
+
+Registers an additional attribute for `ChipAttr`.
+
+You can extend the functionality of `ChipAttr` by adding custom handlers for new attributes.
+Use the `register_addition_attribute` function to register additional attributes.
+When these attributes are encountered, the associated handler function will be called.
+Additionally, you can override existing attributes, as the newly registered handler will take priority over the original ones.
+
+- **Parameters:**
+  - `attr` (str): The name of the additional attribute.
+  - `action` (Callable): A callable that processes `**kwargs`. The `target` and `config_name` parameters will be passed as `kwargs` when the attribute is detected.
+
+- **Usage Example:**
+
+  ```python
+  def my_action(target, config_name, **kwargs):
+      # Custom logic to handle the attribute
+      print(f"Processing {target} with {config_name}")
+      return target
+
+  register_addition_attribute("CUSTOM_ATTR", my_action)
+  ```
+
