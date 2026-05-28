@@ -21,6 +21,8 @@
 | 2    | V1.2     | V1.2     | old |
 | 3    | V1.3     | V1.3     | old |
 | 4    | V1.4     | V1.3     | latest |
+| 4    | V1.5     | V1.3     | latest |
+
 ### Version update points:
 
 **Version 1.2**
@@ -47,7 +49,11 @@ The buzzer control principle mirrors that of the backlight: sending 246 activate
 
 **Version 1.4**
 
-Only the button component has been updated. All other hardware and I/O pins remain the same as in the previous version.
+Only the button component has been updated. All other hardware and I/O pins remain the same as in the 1.3 version.
+
+**Version 1.5**
+
+The hardware and software have not been modified; only the silkscreen has been updated. You can continue to use the 1.3 program and instructions.
 
 ### 3, product information
 
