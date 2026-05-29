@@ -1,0 +1,12 @@
+----1：huge_app.csv
+# Name,   Type, SubType, Offset,  Size,     Flags
+nvs,      data, nvs,     0x9000,  0x5000,
+otadata,  data, ota,     0xe000,  0x2000,
+app0,     app,  ota_0,   0x10000, 0xE00000,
+spiffs,   data, spiffs,  0xE10000,0x180000,
+coredump, data, coredump,0xF90000,0x10000,
+
+
+
+----2：boards.txt
+esp32s3.menu.PartitionScheme.huge_app.upload.maximum_size=14680064
