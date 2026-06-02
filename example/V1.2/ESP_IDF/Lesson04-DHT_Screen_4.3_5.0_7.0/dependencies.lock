@@ -1,0 +1,31 @@
+dependencies:
+  espressif/esp_lcd_touch:
+    dependencies: []
+    source:
+      path: J:\Advance_Code_New\git_code_V13\7_V13\IDF_Code\lesson_4_DHT_screen_4.3_5.0_7.0\components\espressif__esp_lcd_touch
+      type: local
+    version: 1.1.2
+  espressif/esp_lcd_touch_gt911:
+    dependencies: []
+    source:
+      path: J:\Advance_Code_New\git_code_V13\7_V13\IDF_Code\lesson_4_DHT_screen_4.3_5.0_7.0\components\espressif__esp_lcd_touch_gt911
+      type: local
+    version: 1.1.1~1
+  idf:
+    source:
+      type: idf
+    version: 5.1.1
+  lvgl/lvgl:
+    dependencies: []
+    source:
+      path: J:\Advance_Code_New\git_code_V13\7_V13\IDF_Code\lesson_4_DHT_screen_4.3_5.0_7.0\components\lvgl__lvgl
+      type: local
+    version: 8.4.0
+direct_dependencies:
+- espressif/esp_lcd_touch
+- espressif/esp_lcd_touch_gt911
+- idf
+- lvgl/lvgl
+manifest_hash: d5d266152de678f38563fb78535c96ea22d9ead88642e70bb4e988de7ac24ddd
+target: esp32s3
+version: 2.0.0

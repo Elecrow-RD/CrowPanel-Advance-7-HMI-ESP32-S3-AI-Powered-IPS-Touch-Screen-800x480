@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="pypi:repository-version" content="1.0">
+        <title>Simple index</title>
+    </head>
+    <body>
+
+<a href="/pypi/click/click-7.1.2-py2.py3-none-any.whl">click-7.1.2-py2.py3-none-any.whl</a><br/>
+<a href="/pypi/click/click-8.0.1-py3-none-any.whl">click-8.0.1-py3-none-any.whl</a><br/>
+<a href="/pypi/click/click-8.0.3-py3-none-any.whl">click-8.0.3-py3-none-any.whl</a><br/>
+<a href="/pypi/click/click-8.0.4-py3-none-any.whl">click-8.0.4-py3-none-any.whl</a><br/>
+<a href="/pypi/click/click-8.1.3-py3-none-any.whl">click-8.1.3-py3-none-any.whl</a><br/>
+<a href="/pypi/click/click-8.1.7-py3-none-any.whl">click-8.1.7-py3-none-any.whl</a><br/>
+    </body>
+</html>
