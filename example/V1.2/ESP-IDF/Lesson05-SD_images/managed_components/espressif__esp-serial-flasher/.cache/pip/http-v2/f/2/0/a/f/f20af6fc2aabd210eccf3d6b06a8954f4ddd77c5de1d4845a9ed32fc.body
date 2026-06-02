@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="pypi:repository-version" content="1.0">
+        <title>Simple index</title>
+    </head>
+    <body>
+
+<a href="/pypi/argcomplete/argcomplete-3.4.0-py3-none-any.whl">argcomplete-3.4.0-py3-none-any.whl</a><br/>
+<a href="/pypi/argcomplete/argcomplete-3.5.0-py3-none-any.whl">argcomplete-3.5.0-py3-none-any.whl</a><br/>
+<a href="/pypi/argcomplete/argcomplete-3.5.1-py3-none-any.whl">argcomplete-3.5.1-py3-none-any.whl</a><br/>
+    </body>
+</html>
