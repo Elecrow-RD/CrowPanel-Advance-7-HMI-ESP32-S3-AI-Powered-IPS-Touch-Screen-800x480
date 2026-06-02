@@ -159,7 +159,7 @@ void setup() {
   delay(50);
 
 
-  // Turn on backlight: Send 10 to 0x30
+  // Turn on backlight: Send 0x10 to 0x30
   Wire.beginTransmission(0x30);
   Wire.write(0x10);
   Wire.endTransmission();
