@@ -20,7 +20,7 @@
 | 1    | V1.0     | V1.0     | old    |
 | 2    | V1.2     | V1.2     | old |
 | 3    | V1.3     | V1.3     | old |
-| 4    | V1.4     | V1.3     | latest |
+| 4    | V1.4     | V1.3     | old |
 | 4    | V1.5     | V1.3     | latest |
 
 ### Version update points:
@@ -53,7 +53,7 @@ Only the button component has been updated. All other hardware and I/O pins rema
 
 **Version 1.5**
 
-The hardware and software have not been modified; only the silkscreen has been updated. You can continue to use the 1.3 program and instructions.
+Version 1.5 is simply an update to the previous version that modifies the packaging of the touchscreen FPC connector. There are no other differences.
 
 ### 3, product information
 
