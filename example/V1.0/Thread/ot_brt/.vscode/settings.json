@@ -1,0 +1,25 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "j:\\Advance_Code\\thread_test\\esp-idf\\v5.4\\esp-idf",
+    "idf.toolsPathWin": "j:\\Advance_Code\\thread_test\\tools",
+    "idf.pythonInstallPath": "j:\\Advance_Code\\thread_test\\tools\\tools\\idf-python\\3.11.2\\python.exe",
+    "files.associations": {
+        "message.h": "c",
+        "example_common_private.h": "c",
+        "protocol_examples_common.h": "c",
+        "logging.h": "c",
+        "task.h": "c",
+        "esp_ot_wifi_cmd.h": "c",
+        "error.h": "c",
+        "esp_wifi.h": "c"
+    },
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.portWin": "COM14",
+    "idf.flashType": "UART",
+    "idf.currentSetup": "J:\\Advance_Code_New\\NEW_ESP32\\esp-idf\\.espressif\\v5.5.4\\esp-idf"
+}

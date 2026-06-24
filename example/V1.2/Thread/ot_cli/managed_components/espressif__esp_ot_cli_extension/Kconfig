@@ -1,0 +1,30 @@
+menu "OpenThread Extension CLI"
+
+    menuconfig OPENTHREAD_CLI_ESP_EXTENSION
+        depends on OPENTHREAD_FTD || OPENTHREAD_MTD
+        bool "Enable Espressif's extended features"
+        default y
+        help
+            Enable Espressif's extended features.
+
+    config OPENTHREAD_CLI_WIFI
+        bool "Enable wifi connection command"
+        depends on OPENTHREAD_CLI_ESP_EXTENSION && OPENTHREAD_BORDER_ROUTER && EXAMPLE_CONNECT_WIFI
+        default y if ESP_WIFI_ENABLED
+
+    config OPENTHREAD_CLI_OTA
+        bool "Enable OTA command"
+        depends on OPENTHREAD_CLI_ESP_EXTENSION && OPENTHREAD_BORDER_ROUTER
+        default n
+
+    config OPENTHREAD_NVS_DIAG
+        bool "Enable nvs diag"
+        depends on OPENTHREAD_CLI_ESP_EXTENSION
+        default n
+
+    config OPENTHREAD_RCP_COMMAND
+        bool "Enable rcp control command of border router"
+        depends on OPENTHREAD_CLI_ESP_EXTENSION && OPENTHREAD_BORDER_ROUTER && AUTO_UPDATE_RCP
+        default y if AUTO_UPDATE_RCP
+
+endmenu

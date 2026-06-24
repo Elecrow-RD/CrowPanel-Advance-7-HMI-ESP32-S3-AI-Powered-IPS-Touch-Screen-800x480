@@ -1,0 +1,54 @@
+dependencies:
+  espressif/esp_ot_cli_extension:
+    component_hash: d200aec3ece6b69eceeb007244244ed664987f9150cedaaf982a3c943f823fab
+    dependencies:
+    - name: espressif/iperf
+      registry_url: https://components.espressif.com
+      require: private
+      version: ^0.1.0
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.2.6
+  espressif/iperf:
+    component_hash: f4c2beaae50478a626995130d2611c628b7a568cd0799022758c05658928410c
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.3'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    version: 0.1.4
+  espressif/led_strip:
+    component_hash: 28c6509a727ef74925b372ed404772aeedf11cce10b78c3f69b3c66799095e2d
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.5.5
+  idf:
+    source:
+      type: idf
+    version: 5.5.4
+  ot_led:
+    dependencies:
+    - name: espressif/led_strip
+      version: ^2.4.1
+    source:
+      path: J:\Advance_Code_New\NEW_ESP32\esp-idf\.espressif\v5.5.4\esp-idf\examples\openthread\ot_common_components\ot_led
+      type: local
+    version: '*'
+direct_dependencies:
+- espressif/esp_ot_cli_extension
+- idf
+- ot_led
+manifest_hash: 963824e0a62a27ce0c2b82c605b67acbe18d1e3adb4ad12c98b0302b37ad6174
+target: esp32h2
+version: 2.0.0

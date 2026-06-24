@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "j:\\Advance_Code\\thread_test\\esp-idf\\v5.4\\esp-idf",
+  "idf.toolsPathWin": "j:\\Advance_Code\\thread_test\\tools",
+  "idf.pythonInstallPath": "j:\\Advance_Code\\thread_test\\tools\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32h2"
+  },
+  "idf.openOcdConfigs": [
+    "board/esp32h2-builtin.cfg"
+  ],
+  "idf.portWin": "COM43",
+  "idf.flashType": "UART",
+  "idf.currentSetup": "J:\\Advance_Code_New\\NEW_ESP32\\esp-idf\\.espressif\\v5.5.4\\esp-idf",
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=j:\\Advance_IDF_New\\lesson-10\\Thread\\ot_cli\\build"
+  ]
+}
