@@ -1,0 +1,6 @@
+{
+    "idf.espIdfPathWin": "C:\\Users\\12397\\esp\\v5.1.6\\esp-idf",
+    "idf.toolsPathWin": "c:\\Users\\12397\\esp\\v5.1.6_tools",
+    "idf.pythonInstallPath": "c:\\Users\\12397\\esp\\v5.1.6_tools\\tools\\idf-python\\3.11.2\\python.exe",
+    "cmake.sourceDirectory": "C:/platformIO/4.3_5.0_7.0_platfromIO/lib/Adafruit BusIO"
+}
