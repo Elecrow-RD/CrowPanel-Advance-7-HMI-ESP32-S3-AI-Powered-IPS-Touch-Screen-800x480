@@ -1,0 +1,17 @@
+dependencies:
+  espressif/cjson: ^1.7.19
+  espressif/dl_fft: '>=0.6.0'
+  espressif/esp-dsp: 1.8.0
+  idf: '>=5.0'
+description: esp_sr provides basic algorithms for Speech Recognition applications
+files:
+  exclude:
+  - .github
+  - docs/**/*
+  - test_apps/**/*
+repository: git://github.com/espressif/esp-sr.git
+repository_info:
+  commit_sha: 2f8c4b0459db5bbb39abd77adae27962d6d94bcb
+  path: .
+url: https://github.com/espressif/esp-sr
+version: 2.4.7

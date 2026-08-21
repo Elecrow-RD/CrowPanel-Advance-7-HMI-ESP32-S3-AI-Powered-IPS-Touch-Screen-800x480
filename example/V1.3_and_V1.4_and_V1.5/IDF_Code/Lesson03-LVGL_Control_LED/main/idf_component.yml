@@ -1,0 +1,9 @@
+dependencies:
+  idf:
+    version: ">=5.1.0"
+
+  lvgl/lvgl:
+    version: "~9.1.0"
+    public: true
+
+  esp_lcd_touch_gt911: "^1"
